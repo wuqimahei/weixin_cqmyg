@@ -55,7 +55,7 @@ public class PassiveReplyController {
             // 接收到的是用户发来的文本消息
             // 文本消息包含 content
             String content = map.get("Content");
-            message = passiveReplyService.searchByKeyWord(fromUserName, toUserName, content);
+            message = passiveReplyService.selectByKeyWord(fromUserName, toUserName, content);
         }else if (msgType.equals(Const.MESSAGE_IMAGE)){
             // 接收到的是用户发来的图片消息
             // 图片消息包含 PicUrl MediaId

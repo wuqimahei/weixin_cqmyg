@@ -4,11 +4,11 @@ public class ImageMessage extends BaseMessage{
 
     private Image Image;
 
-    public cn.yuyangyang.weixin.domain.Image getImage() {
+    public cn.yuyangyang.weixin.model.Image getImage() {
         return Image;
     }
 
-    public void setImage(cn.yuyangyang.weixin.domain.Image image) {
+    public void setImage(cn.yuyangyang.weixin.model.Image image) {
         Image = image;
     }
 }

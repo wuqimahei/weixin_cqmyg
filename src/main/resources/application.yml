@@ -2,6 +2,20 @@ server:
   port: 80
 
 
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.94.213.86:3306/weixin_cqmyg?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    username: weixin
+    password: 123456
+logging:
+  level:
+    cn.yuyangyang.weixin.dao: trace
+  pattern:
+    console: '%p%m%n'
+
+
+
 # 微信开发前的配置的token
 wx:
   AppSecret: d1bf998fcdbfd9bdd5f7f5764323dc8b
