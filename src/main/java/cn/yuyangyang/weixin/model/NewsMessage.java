@@ -1,10 +1,13 @@
 package cn.yuyangyang.weixin.model;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+
 import java.util.List;
 
 /**
  * 图文消息外层部分
  */
+
 public class NewsMessage extends BaseMessage{
 
     // 图文消息条数

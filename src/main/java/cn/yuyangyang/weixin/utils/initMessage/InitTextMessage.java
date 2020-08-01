@@ -1,6 +1,7 @@
-package cn.yuyangyang.weixin.utils;
+package cn.yuyangyang.weixin.utils.initMessage;
 
 import cn.yuyangyang.weixin.model.TextMessage;
+import cn.yuyangyang.weixin.utils.Const;
 import com.thoughtworks.xstream.XStream;
 import java.util.Date;
 
@@ -18,7 +19,7 @@ public class InitTextMessage {
         textMessage.setToUserName(fromUserName);
         textMessage.setMsgType(Const.MESSAGE_TEXT);
         textMessage.setCreateTime(new Date().getTime());
-        textMessage.setContent("消息是：" + content);
+        textMessage.setContent(content);
         return text2XML(textMessage);
     }
 

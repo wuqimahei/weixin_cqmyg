@@ -1,5 +1,8 @@
 package cn.yuyangyang.weixin.model;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+
+
 public class ImageMessage extends BaseMessage{
 
     private Image Image;

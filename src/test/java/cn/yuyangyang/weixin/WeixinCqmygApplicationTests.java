@@ -16,6 +16,7 @@ class WeixinCqmygApplicationTests {
     void dbTest() {
         String s = passiveReplyService.selectByKeyWord("abc", "dfg", "lxt");
         System.out.println(s);
+
     }
 
 }

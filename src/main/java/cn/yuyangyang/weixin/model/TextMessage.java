@@ -1,5 +1,8 @@
 package cn.yuyangyang.weixin.model;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+
+@TableName("wx_text_message")
 public class TextMessage extends BaseMessage{
     private String Content;
     private String MsgId;

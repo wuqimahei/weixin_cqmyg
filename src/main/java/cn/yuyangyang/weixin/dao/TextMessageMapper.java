@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface TextMessageDao extends BaseMapper<TextMessage> {
+public interface TextMessageMapper extends BaseMapper<TextMessage> {
     // 根据关键词自动回复
     String selectByKeyword(String keyword);
     // 新增一个自动回复

@@ -2,11 +2,8 @@ package cn.yuyangyang.weixin.model;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 
-/**
- * <Image></Image>标签所包含的内容
- */
-@TableName("wx_image_message")
-public class Image {
+@TableName("wx_voice_message")
+public class Voice {
     private String MediaId;
 
     public String getMediaId() {

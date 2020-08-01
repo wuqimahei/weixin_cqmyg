@@ -26,4 +26,12 @@ public class Const {
     // view菜单
     public static final String MESSAGE_VIEW = "view";
 
+    // 上传素材获取media_id 的路径
+    public static final String UPLOAD_URL = "https://api.weixin.qq.com/cgi-bin/media/upload?access_token=ACCESS_TOKEN&type=TYPE";
+
+    public static final String APPID = "***";
+    public static final String APPSECRET = "***";
+    public static final String ACCESS_TOKEN_URL = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET";
+
+
 }

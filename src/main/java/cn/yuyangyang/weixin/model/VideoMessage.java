@@ -1,5 +1,7 @@
 package cn.yuyangyang.weixin.model;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+
 public class VideoMessage extends BaseMessage {
     private  Video Video;
 

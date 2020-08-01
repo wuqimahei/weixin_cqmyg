@@ -1,5 +1,8 @@
 package cn.yuyangyang.weixin.model;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+
+
 public class MusicMessage extends BaseMessage {
     private Music Music;
 

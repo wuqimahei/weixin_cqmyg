@@ -1,5 +1,8 @@
 package cn.yuyangyang.weixin.model;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+
+@TableName("wx_music_message")
 public class Music {
 
     private String Title;

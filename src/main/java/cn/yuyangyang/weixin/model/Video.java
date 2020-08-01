@@ -1,5 +1,8 @@
 package cn.yuyangyang.weixin.model;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+
+@TableName("wx_video_message")
 public class Video  {
 
 

@@ -1,8 +1,11 @@
 package cn.yuyangyang.weixin.model;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+
 /**
  * 图文消息的消息体
  */
+@TableName("wx_news_message")
 public class News {
 
     private String Title;
